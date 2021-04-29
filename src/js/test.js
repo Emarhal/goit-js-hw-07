@@ -1,8 +1,10 @@
-const ingredientsRef = document.querySelector('#ingredients');
-const listItem = ingredients.map(ingredient => {
-    const liItem = document.createElement('li');
-    liItem.textContent = ingredient;
-    return liItem;
-})
+// let input = document.getElementById("name-input");
+// let nameOutput = document.getElementById("name-output");
 
-ingredientsRef.append(...listItem);
+// input.oninput = function () {
+//     if (input.value === '') {
+//        nameOutput.innerHTML = 'незнакомец';
+//     } else{
+//     nameOutput.innerHTML = input.value;
+//     }
+// }
